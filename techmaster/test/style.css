@@ -1,0 +1,32 @@
+
+#background
+{
+    background-color:#272822;
+    color: white;
+    width: 500px;
+    overflow: auto;
+}
+.pink  
+{
+    color:hsl(350,40%,70%);
+}
+.yellow
+{
+    color: #e90;
+}
+.blue
+{
+    color: aqua;
+}
+.media
+{
+    text-align: center;
+    
+}
+.media img{
+    width: 200px;
+}
+.Country
+{
+    color: #e90;
+}

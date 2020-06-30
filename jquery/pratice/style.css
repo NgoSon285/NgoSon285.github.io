@@ -1,0 +1,38 @@
+.container
+{
+    width: 900px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.form
+{
+    color: brown;
+    text-align: center;
+    padding: 20px;
+}
+#text-value
+{
+    font-size: 20px;
+    border-radius: 2px;
+    margin: 20px;
+    
+    
+}
+#button-save
+{
+    font-size: 20px;
+    text-align: center;
+}
+#new-item
+{
+    font-size: 20px;
+    text-align: center;
+}
+#editItem   
+{
+    font-size: 20px;
+    border-radius: 2px;
+    margin: 20px;
+    
+    
+}

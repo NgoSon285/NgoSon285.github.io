@@ -1,0 +1,102 @@
+.container
+{
+    background-color: #dbdbdb;
+    margin: 0 auto;
+}
+.header1
+{
+    display: flex;
+    display: inline-block;
+    align-content: center; 
+}
+.title
+{
+    font-size: 20px;
+    padding: 8px 66px;
+}
+.content
+{
+    display: flex;
+    
+
+}
+.content1
+{
+    flex: 20%;
+    margin: 15px;
+}
+.content2
+{
+    flex: 20%;
+    margin: 15px;
+}
+.content3
+{
+    flex: 20%;
+    margin: 15px;
+}
+.content4
+{
+    flex: 20%;
+    margin: 15px;
+}
+.content5
+{
+    flex: 20%;
+    margin: 15px;
+}
+.content img
+{
+    width: 100%;
+
+}
+.imgcontent
+{
+    font-size: 20px;
+    text-align: center;
+}
+.header2
+{
+    font-size: 20px;
+    padding: 8px 66px;
+    display: flex;
+    justify-content: space-between;
+}
+.header2 button
+{
+    padding: 10px;
+}
+.dscontent
+{
+    display: flex;
+}
+.dscontent1
+{
+    flex: 33%;
+    margin: 15px;
+    display: flex;
+    line-height: 50px;
+
+}
+.dscontent1 div
+{
+   flex: 50%;
+
+}
+.dscontent2
+{
+    flex: 33%;
+    margin: 15px;
+}
+.dscontent3
+{
+    flex: 33%;
+    margin: 15px;
+}
+.dscontent  img
+{
+    width: 25%;
+
+}
+
+

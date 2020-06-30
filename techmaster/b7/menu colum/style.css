@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    background-color: #dbdbdb;
+    position: relative;
+    height: 450px;
+    width: 450px;
+    text-align: center;
+}
+.navbar > ul
+{
+    
+}

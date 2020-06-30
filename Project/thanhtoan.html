@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Thanh Toán</title>
+    <link rel="icon" type="image/png" href="img/logo/paper_plane 1.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <header>
+        <div class="header header__bg">
+            <div class="header__logo">
+                <a href="Index.html"><img src="img/logo/logo3.svg" alt=""></a>
+            </div>
+            <div class="header__menu">
+                <ul>
+                    <li><a href="Index.html">Trang Chủ</a></li>
+                    <li><a href="Dulich.html">Du Lịch</a>
+                        <div class="sub-item">
+                            <ul>
+                                <li><a href="DuLichTrongNuoc.html">Du Lịch Trong Nước</a></li>
+                                <li><a href="DuLichTrongNuoc.html">Du Lịch Nước Ngoài</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="TinTuc.html">Tin Tức </a></li>
+                    <li><a href="KhuyenMai.html">Khuyến Mại</a></li>
+                    <li><a href="LienHe.html">Liên Hệ</a></li>
+                </ul> 
+            </div>
+            <div class="header__icon">
+                <input style='display:none;' id='searchBar' name='search' type='search' placeholder='Search&hellip;'>
+                <span><i class="fas fa-search" id='toggle-search'></i></span> 
+                <span><i class="fas fa-shopping-cart"></i></span>
+            </div>
+    
+        </div>
+        <!-- <div class="header__topbaner">
+            <img src="img/topbaner/img_bg_5.svg" alt="topbaner">
+            <div class="header__title wow fadeInDown" data-wow-delay="0.5s">
+              <p>Tour Du Lịch</p>
+            </div> 
+        </div> -->
+    </header>
+    <div class="status__order">
+        <span><i class="fas fa-check-circle"></i></span>Đơn đặt tour -- <span><i class="far fa-circle"></i></span>Thông tin đơn hàng -- <span><i class="far fa-circle"></i></span>Hoàn tất
+    </div>
+
+    <div class="container order__tour">
+        <div class="content__order">
+            <div class="form__order">
+                <div class="title_order">
+                    <h4>Đơn Đặt Tour</h4>
+                </div>
+                <div class="tour_order">
+                    <img src="img/tour world/phct 2.svg" alt="">
+                    <h5>Hà Nội - Phượng Hoàng Cổ Trấn - Trương Gia Giới 5N5Đ</h5>
+                </div>
+                <div class="br3"></div>
+                <div class="order__price">
+                    <p>Tổng số tiền thanh toán: </p>
+                    <div class="quantity">
+                        <button class="plus-btn" type="button" name="button">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <input type="text" name="name" value="1" id="count">
+                        <button class="minus-btn" type="button" name="button">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                      </div>
+                      <div id="total-price" value="7000000">7.000.000 đ</div>  
+                </div>
+                
+            </div>
+            <div class="form__infor--order">
+                <div class="title_order">
+                    <h4>Thông Tin Đặt Tour </h4>
+                </div>
+                <form action="ReportThanhToan.html" class="input__infor">
+                    <label for="hoten">Họ và tên: </label><br>
+                    <input type="text" name="name" id="Hoten">
+                    <div class="contact_form">
+                        <div class="sdt">
+                            <label for="sdt">Số điện thoại : </label><br>
+                            <input type="text" name="phone">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email: </label><br>
+                            <input type="email" name="mail" id="">
+                        </div>
+                    </div>
+                    <label for="addess">Địa Chỉ: </label><br>
+                    <input type="text"><br>
+                    <label for="note">Ghi Chú: </label><br>
+                    <input type="text" name="note" id="note">
+                    <br>
+                    <button class="order--check">
+                        <span>Xác Nhận Đặt Tour</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <button class="back-to-top"><i class="fas fa-angle-up"></i></button>
+    <div class="footer">
+                
+        <div class="footer__logo_red">
+
+            <a href="Index.html"><img src="img/logo/logo.svg" alt=""></a>
+          </div>
+          <div class="footer__sp_custom">
+            <div class="footer__title">Hỗ Trợ Khách Hàng</div>
+            <span><i class="fas fa-map-marker-alt footer_icon"></i> 48 Lê Văn Lương - Thanh Xuân - Hà Nội</span>
+            <span><i class="fas fa-phone-alt footer_icon"></i> 19001893</span>
+            <span><i class="fas fa-envelope footer_icon"></i> travel@gmail.com</span>
+          </div>
+          <div class="footer__information">
+            <div class="footer__title">Thông Tin</div>
+            <span><a href="#"> Tức Du Lịch</a></span>
+            <span><a href="#"> Cẩm Nang Du Lịch</a></span>
+            <span><a href="#"> Kinh Nghiệm Du Lịch</a></span>
+            <span><a href="#"> Thông Tin Về Chúng tôi</a></span>
+          </div>
+          <div class="footer__smart_travel">
+            <div class="footer__title">Du Lịch Thông Minh</div>
+            <span>Đăng kí nhận tin để lên kế hoạch cho kỳ nghỉ sắp tới ngay từ bây giờ
+            </span><br>
+            <div class="footer__email">
+                <input type="email" name="email" id="i_email" placeholder="Nhập địa chỉ email" autocomplete="on">
+                <img src="img/icon/Group 61.svg" alt="">
+            </div>
+            <div class="footer__media">
+              <img src="img/icon/facebook.svg" alt="facebook">
+              <img src="img/icon/twitter.svg" alt="twitter">
+              <img src="img/icon/intagram.svg" alt="instagram">
+              <img src="img/icon/youtube.svg" alt="youtube">
+            </div>
+          </div>
+    </div>
+
+    
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src='js/wow.js'></script>
+<script src="js/main.js"></script>
+</body>
+</html>

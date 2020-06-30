@@ -1,0 +1,11 @@
+@media screen and (min-width:992px)
+{
+.img-poster img
+{
+    width: 100%;
+}
+.logo img
+{
+    color: red;
+}
+}

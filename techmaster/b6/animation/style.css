@@ -1,0 +1,67 @@
+.square
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: stranfom 2s infinite;
+}
+@keyframes stranfom
+{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 300px;
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+    }
+    75%
+    {
+        top: 300px;
+        left: 0;
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+    }
+}
+.backgroud img
+{
+   width: 100%;
+   height: 450px;
+   object-fit: cover;
+
+}
+.title
+{
+    position: absolute;
+    animation: title-head 2s ;
+    color: red;
+    top: 40px;
+    /* left: -10000px; */
+    animation-fill-mode: forwards; 
+    font-size: 25px;
+    text-align: center;
+
+}
+@keyframes title-head
+{
+    /* 0%
+    {
+        top: 0;
+        left: 0;
+    }
+    100%
+    {
+        left: 40%;
+    } */
+    from{left: -100%;}
+    to{left: 50%; transform: translate(-50%);}
+    
+}

@@ -1,0 +1,159 @@
+body
+{
+    height: 100vh;
+}
+.img
+{
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+.img img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.img:hover img
+{
+    transform: scale(1.5);
+    
+}
+.menu
+{
+
+    display: flex;
+    flex: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #444;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    
+
+}
+.menu a
+{
+    text-decoration: none;
+    padding: 20px 20px;
+    color: white;
+    transition: all 0.4s;
+
+}
+.menu a:hover
+{
+    background-color: white;
+    color: #444;
+}
+.content
+{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+.header
+{
+    font-size: 25px;
+    flex: 100%;
+    display: flex; 
+    justify-content: space-between;
+   
+}
+.mv
+{
+    display: flex;
+    margin: 10px; 
+}
+.mv img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.nhactre
+{
+    flex: 20%;
+    margin: 10px;
+}
+.imgmv
+{
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+}
+.imgmv .fas
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: 25px;
+    opacity: 0;
+    z-index: 5;
+}
+.trutinh
+{
+    flex: 20%;
+    margin: 10px;       
+}
+.edm
+{
+    flex: 20%;
+    margin: 10px;
+}
+.aumy
+{
+    flex: 20%;
+    margin: 10px;
+}
+.hanquoc
+{
+    flex: 20%;
+    margin: 10px;
+}
+.imgmv:hover .fas{
+    opacity: 1;
+}
+.imgmv:hover img
+{
+    transform: scale(1.5);
+}
+.imgmv img
+{
+    transition: all 1s;
+}
+.blur
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+    border-radius: 10px;
+}
+.imgmv:hover .blur
+{
+    opacity: 0.5;
+}
+.header
+{
+    margin: 20px 10px;
+}
+.icon2 button
+{
+    background-color: blueviolet;
+    border-radius: 4px; 
+    font-size: 20px;
+    color:white;
+}

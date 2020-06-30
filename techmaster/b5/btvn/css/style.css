@@ -1,0 +1,170 @@
+.header
+{
+    flex: 100%;
+    text-align: center;  
+    margin: 0 auto;
+    background-color: #365899;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+.fa-phone-square-alt
+{
+    padding: 0 10px; 
+}
+.fa-map-marker-alt
+{
+    padding: 0 10px;
+}
+.navbar
+{
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.fa-laptop-code
+{
+    font-size: 45px;
+}
+.logo
+{
+    font-size: 35px;
+    color: #365899;
+    background-color: whitesmoke;
+    height: 100px;
+    line-height: 100px;
+    flex: 40%;
+}
+.logo i
+{
+    padding: 20px;
+}
+.navbar div
+{
+    text-align: center; 
+}
+.menu
+{
+    flex: 60%;   
+    background-color: whitesmoke;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: #365899;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+.menu a:hover
+{
+    background: red;
+}
+.content
+{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+
+}
+
+.menu2 ul
+{
+    padding: 0;
+    font-size: 30px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: aqua;
+    line-height: 250px;
+    text-align: center;
+}
+.menu2 li
+{
+    /* width: auto;  */
+    border: 5px solid #e8e8e8;
+    list-style: none;
+}
+.menu2 li a
+{
+    text-decoration: none;
+    color: #365899;
+    font-weight: bold;
+    display: block; 
+}
+.menu2 li:hover
+{
+    background: #CDE2CD;
+}
+.product
+{
+    grid-column: 2/4;
+    grid-row: 1/9;
+    display: grid;
+    gap: 50px 50px; 
+}
+.head1
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 35px;
+    padding: 40px 50px;
+}
+.sp
+{
+    display: grid;
+    gap: 50px 50px;
+}
+.sp1
+{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.sp2
+{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.sp3
+{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.sp4
+{
+    grid-column: 1/2;
+    grid-row: 2/3;   
+}
+.sp5
+{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.titlesp a
+{
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.titlesp
+{
+    text-align: left;
+}
+.head2
+{
+    font-size: 35px;
+    padding: 40px 50px;
+}
+.head3
+{
+    font-size: 35px;
+    padding: 40px 50px;
+}
+
+
+
+

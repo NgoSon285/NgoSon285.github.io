@@ -1,0 +1,61 @@
+.content
+{
+    margin: 20px;
+    text-transform: uppercase;
+    color: #4db8ff;
+}
+#text-value
+{
+    font-size: 20px;
+    border-radius: 2px;
+    margin: 20px;
+    
+    
+}
+#button-save
+{
+    font-size: 20px;
+    text-align: center;
+}
+/* input[placeholder="insert new item...."]{
+    color: black; 
+}*/
+#new-item
+{
+    font-size: 20px;
+    text-align: center;
+}
+#editItem   
+{
+    font-size: 20px;
+    border-radius: 2px;
+    margin: 20px;
+    
+    
+}
+.styleUl
+{
+    position: relative;
+    top: -220px;
+    left: 330px;
+    list-style-type: none;
+    font-size: 25px;
+    width: 500px;
+}
+.styleUl li
+{
+    padding: 20px;
+    color: white;
+    border: solid 1px beige;
+    background-color:	 #4db8ff;
+}
+.fa-trash-alt
+{
+    float: right;
+}
+.fa-pencil-alt
+{
+    float: right;
+    padding: 0 20px;
+}
+

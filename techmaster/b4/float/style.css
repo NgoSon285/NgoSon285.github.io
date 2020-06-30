@@ -1,0 +1,72 @@
+/* .header
+{
+    width: calc(100%/2);
+    height: 400px;
+    background-color:red;
+    font-size: 45px;
+    line-height: 400px;
+    text-align: center;
+    float: left;
+    position: relative;
+    right: 7px;
+
+}
+.navbar
+{
+    width: calc(100%/2);
+    height: 200px;
+    background-color: green;
+    font-size: 45px;
+    line-height: 200px;
+    text-align: center;
+    float: right;
+    position: relative;
+    left: 7px;
+
+}
+.content
+{
+    width: calc(100%/2);
+    height: 200px;
+    background-color: blue;
+    font-size: 45px;
+    line-height: 200px;
+    text-align: center;
+    float: right;
+    position: relative;
+    left: 7px;
+} */
+/* chia 3 */
+.header
+{
+    width: calc(100%/3 - 15px);
+    height: 400px;
+    background-color: red;
+    font-size: 45px;
+    line-height: 400px;
+     text-align: center; 
+    float: left;
+    margin-right: 15px;
+}
+.navbar
+{
+    width: calc(100%/3 - 15px);
+    height: 400px;
+    background-color:green;
+    font-size: 45px;
+    line-height: 400px;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+.content
+{
+    width: calc(100%/3 - 15px);
+    height: 400px;
+    background-color: blue;
+    font-size: 45px;
+    line-height: 400px;
+    text-align: center;
+    float: left;
+    margin-right: auto;
+}

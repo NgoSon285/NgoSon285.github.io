@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Lý do khiến Flutter sẽ thay đổi bộ mặt của Mobile Development</title>
+</head>
+<body>
+   <h1>Lý do khiến Flutter sẽ thay đổi bộ mặt của Mobile Development</h1>
+   <i>01 tháng 11, 2019</i>
+   <br>
+   <button>Flutter</button>
+   <button>lập trình</button>
+   <p>Nếu bạn là một Android developer, có thể bạn đã nghe nói về Flutter. Nó khá mới, được cho là một framework đơn giản được thiết kế để tạo các native app (ứng dụng gốc) đa nền tảng. Flutter không phải là sản phẩm đầu tiên thuộc loại này, nhưng nó lại được Google sử dụng — điều này đem lại những sự tin cậy nhất định. Bất chấp sự dè dặt ban đầu của tôi khi nghe về nó, tôi quyết định thử — và nó đã thay đổi đáng kể quan điểm của tôi về Mobile Development chỉ trong vòng 1 tuần. Đây là những gì tôi đã học được</p>
+    <p>Cách đây đúng 1 năm, tôi đã pulish App Android đầu tiên của mình trên PlayStore. Ứng dụng ấy khá cơ bản về kiến trúc và quy ước mã hóa; đó là dự án open source lớn đầu tiên của tôi, cho thấy, và tôi đã đi một chặng đường dài với Android. Tôi làm việc tại một công ty và dành thời gian cho khá nhiều dự án với các công nghệ và kiến trúc khác nhau, bao gồm Kotlin, Dagger, RxJava, MVP, MVVM, VIPER,… những thứ thực sự đã giúp tôi rất nhiều trong quá trình phát triển ứng dụng Android.</p>
+    <p>Tôi đã bắt đầu bằng cách tạo các network request, phân tích cú pháp JSON và làm quen với mô hình đồng thời đơn luồng của Dart <b><i>Dart’s single-threaded concurrency model</i> </b></p>
+    <p>Tôi sẽ so sánh sự khác biệt trong việc xây dựng các tính năng đó giữa <b>Flutter</b>và <b>Android</b>.Hãy bắt đầu với các bước cần thiết để xây dựng danh sách này trong Android:</p>
+    <ol>
+        <li>Tạo 1 file list-item layout trong XML</li>
+        <li>Tạo 1 adapter để điền item-views và đặt dữ liệu</li>
+        <li>Tạo layout cho danh sách (có thể trong activity hoặc Fragment)</li>
+        <li>Điền list layout trong Fragment hoặc Activity</li>
+    </ol>
+    <pre id="background">
+        <code>
+            <span class="pink">@override</span>
+            <span>Widge</span> <span class="yellow">build</span> <span class="blue">(</span> <span>BuildContext contex</span><span class="blue">) {</span> 
+            <span class="pink">return new</span> <span>FutureBuilde</span> <span class="blue">(</span>
+                <span>future: widget</span><span class="blue">.</span><span>provider</span><span class="blue">.</span><span class="yellow">loadMedia</span><span class="blue">(</span><span>widget</span><span class="blue">.</span><span>category</span><span class="blue">),</span>
+                <span>builder:</span><span class="blue">(</span><span>BuildContext context</span><span class="blue">,</span><span>AsyncSnapshot</span><span class="yellow"><</span><span>List</span><span class="yellow"><</span><span>MediaItem</span><span class="yellow"><<</span><span>snapshot</span><span class="blue">) }</span>
+    
+        </code>
+    </pre>
+    <div class="media"><img  src="img/test.png" alt="media" title="phone"></div>
+    <div class="galaxy">
+        vũ trụ
+        <div class="Earth">
+            trái đất
+            <div class="Country">
+                Việt Nam
+            </div>
+        </div>
+    </div>
+    
+
+
+
+</body>
+
+</html>
