@@ -600,9 +600,16 @@ img {
     height: 100%;
     width: 100%;
   }
+  .img__promo {
+    flex: 30%;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
   .content__news {
     flex: 70%;
     display: block;
+    margin-left: 2rem;
   }
   .content__news a {
     color: #ff002d;
@@ -749,6 +756,9 @@ img {
   .sub__item__boxorder {
     color: #ff002d;
     font-weight: 600;
+  }
+  .rating-stars-container a {
+    text-decoration: none;
   }
   .order {
     background-color: #ff002d;
